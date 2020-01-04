@@ -8,3 +8,8 @@
 [deploy]
 	host = kvm_nat
 	path = /
+[remote "github"]
+    url = git@github.com:huangyingw/kvm_nat.git
+    fetch = +refs/heads/*:refs/remotes/github/*
+[push]
+    remote = github
